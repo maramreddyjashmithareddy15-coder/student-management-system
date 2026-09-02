@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Production build output
+frontend/dist/
+dist/
+
+# Java Build Artifacts
+*.class
+bin/
+**/bin/
+target/
+*.jar
+*.war
+
+# Archives & Backup Files
+*.zip
+*.tar.gz
+*.bak
+
+# Environment files & local databases
+.env
+backend/.env
+*.sqlite
+*.sqlite3
+backend/database.sqlite
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
